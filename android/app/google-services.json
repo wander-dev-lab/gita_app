@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106972165954",
+    "project_id": "gita-app-2b6e4",
+    "storage_bucket": "gita-app-2b6e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106972165954:android:b8252f39331ea100edbadb",
+        "android_client_info": {
+          "package_name": "com.achivie.gita.app.gita_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106972165954-2tfqr46kmvmqjcgurdfrhe04rlcomkds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtN_df7Bg-aD8MkHoYhp2yv9A5ovk3MnY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106972165954-2tfqr46kmvmqjcgurdfrhe04rlcomkds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

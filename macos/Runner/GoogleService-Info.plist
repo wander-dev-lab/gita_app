@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDDMV5sMKw24jfgvtgDRluYDhlwZ-fs2Cc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>106972165954</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.achivie.gita.app.gitaApp.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>gita-app-2b6e4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gita-app-2b6e4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:106972165954:ios:65f9d5a0f87cf5b5edbadb</string>
+</dict>
+</plist>
