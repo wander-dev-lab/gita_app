@@ -3,7 +3,7 @@ class Keys {
       "https://bhagavad-gita3.p.rapidapi.com/v2";
   static const String apiBaseChaptersUrl = "$gitaApiBaseUrl/chapters";
   static const String rapidAPIKeyVal =
-      "8680f6be21msh8fa7d85b9c5db32p1f561bjsn1d3c8a0210e1";
+      "YOUR_OWN_API_KEY";
   static const String rapidAPIHostVal = "bhagavad-gita3.p.rapidapi.com";
   static const String rapidAPIKey = "X-RapidAPI-Key";
   static const String rapidAPIHost = "X-RapidAPI-Host";
