@@ -50,14 +50,21 @@ Customizable alerts for completed verses and chapters to maintain a daily spirit
 
 ## 📸 Screenshots
 
-### 🏠 Home & Progress  
-### 📖 Chapter List  
-### 📜 Verse Reading  
-### ⚙️ Settings & Theme  
-### 🎵 Audio Player  
-### 🌞 Daily Verse  
-### 🔎 Search & Discovery  
-### 🌐 Language Options  
+| 🏠 Home | 📖 Chapters |
+|--------|-------------|
+| <img src="sss/home.jpeg" width="250"/> | <img src="sss/chapters.jpeg" width="250"/> |
+
+| 📜 Verse Reading | 📘 Chapter Summary |
+|------------------|-------------------|
+| <img src="sss/verse.jpeg" width="250"/> | <img src="sss/chapter_summary.jpeg" width="250"/> |
+
+| 📖 Summary Reading | 🎵 Audio (English) |
+|--------------------|-------------------|
+| <img src="sss/chapter_summary_reading.jpeg" width="250"/> | <img src="sss/home_audio_english.jpeg" width="250"/> |
+
+| 🎵 Audio (Hindi) | 🌞 Light Mode |
+|-----------------|--------------|
+| <img src="sss/home_audio_hindi.jpeg" width="250"/> | <img src="sss/home_light.jpeg" width="250"/> | 
 
 ---
 
