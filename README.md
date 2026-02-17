@@ -118,9 +118,6 @@ The app integrates with the Bhagavad Gita API via RapidAPI to fetch:
 - Optimized data parsing  
 - Minimal redundant API requests  
 
-> API keys are stored in `lib/constants/keys.dart`.  
-> Do not expose real keys in public repositories.
-
 ---
 
 ## 📊 State Management & Performance
