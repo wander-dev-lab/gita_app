@@ -1,10 +1,4 @@
-<p align="center">
-  <img src="assets/logo_no_bg.png" width="140"/>
-</p>
-
-<br/>
-
-# Bhagavad Gita App 📖
+# <img src="assets/logo_no_bg.png" width="40" align="center"/> Bhagavad Gita App 📖
 
 A modern, immersive Flutter application designed to bring the ancient wisdom of the Bhagavad Gita to your fingertips. This app provides a seamless experience for reading, listening to, and tracking your spiritual journey through the 18 chapters and 700 verses of the Gita.
 
