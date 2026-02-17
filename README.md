@@ -4,6 +4,21 @@ A modern, immersive Flutter application designed to bring the ancient wisdom of 
 
 ---
 
+## 🎯 Problem Statement
+
+Many existing Bhagavad Gita apps either lack structured reading progression, 
+clear translations, or an engaging user experience. 
+
+This project aims to provide:
+- A distraction-free reading experience  
+- Structured daily engagement  
+- Multi-language accessibility  
+- Seamless audio integration  
+
+The goal is to combine spirituality with modern mobile UX design.
+
+---
+
 ## 🚀 Features
 
 ### 📚 Chapter Overview
@@ -68,10 +83,105 @@ Customizable alerts for completed verses and chapters to maintain a daily spirit
 
 ---
 
-## ⚙️ Installation & Setup
+## 🧠 Architecture & Design
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/wander-dev-lab/gita_app.git
-cd gita_app
-```
+The application follows a modular and layered structure to ensure scalability and maintainability.
+
+### Structure
+
+- **Presentation Layer** – Flutter UI screens and reusable widgets  
+- **Service Layer** – API handling and business logic  
+- **Persistence Layer** – Local storage using SharedPreferences  
+- **Notification Layer** – Scheduled reminders using Awesome Notifications  
+
+This separation improves:
+- Code readability
+- Testability
+- Future scalability
+- Easier feature expansion
+
+---
+
+## 🔌 API Integration
+
+The app integrates with the Bhagavad Gita API via RapidAPI to fetch:
+
+- All 18 chapters
+- Verse-level details
+- Translations (English & Hindi)
+- Word meanings
+
+### Key Implementation Details
+
+- Asynchronous API calls using Future-based architecture  
+- Error handling for network failures  
+- Optimized data parsing  
+- Minimal redundant API requests  
+
+> API keys are stored in `lib/constants/keys.dart`.  
+> Do not expose real keys in public repositories.
+
+---
+
+## 📊 State Management & Performance
+
+The application efficiently manages asynchronous updates using:
+
+- FutureBuilder for network-bound UI rendering  
+- Optimized widget rebuild strategies  
+- Lazy data loading for verse content  
+
+Performance Optimizations:
+
+- Reduced unnecessary rebuilds  
+- Compressed image assets  
+- Controlled API invocation frequency  
+
+This ensures smooth scrolling and fast loading times even on low-end devices.
+
+---
+
+## 💾 Data Persistence
+
+User progress is stored locally using SharedPreferences.
+
+Tracked Data:
+- Recently visited chapters  
+- Recently played audio  
+- Daily engagement tracking  
+
+This allows users to resume their spiritual journey seamlessly.
+
+---
+
+## 🔔 Smart Notification System
+
+The app uses Awesome Notifications to:
+
+- Schedule daily reminders  
+- Encourage consistent reading habits  
+- Notify completion milestones  
+
+Users can customize or disable notifications from the settings screen.
+
+---
+
+## 🚀 Future Improvements
+
+Planned Enhancements:
+
+- Bookmark & Favorites system  
+- Advanced search filters  
+- Cloud sync with user accounts  
+- Analytics dashboard for reading habits  
+- Play Store deployment  
+
+The long-term vision is to transform this into a complete spiritual learning platform.
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Rupam Karmakar**
+
+Flutter Developer | Product Builder | Technology Enthusiast
